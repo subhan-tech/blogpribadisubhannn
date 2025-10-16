@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subhan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">♊ BlogSubhan</div>
+    <nav>
+      <a href="#hero">Beranda</a>
+      <a href="#about">Tentang</a>
+      <a href="#projects">Tugas</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <h1>Hai, aku <span class="highlight">Subhan</span></h1>
+    <p>Mahasiswa Jurusan Teknik Informatika, Universitas Dinamika Bangsa, Umurku 19 tahun, Makanan kesukaanku martabak keju 😁</p>
+    <p class="bio fade-up">Aku suka bermain game, maka dari itu aku ingin membuat game sendiri. Saat ini saya fokus belajar coding dan 3d designer.</p>
+    <button id="scrollProjects">Lihat Tugas ↓</button>
+  </section>
+
+  <!-- Tentang Saya -->
+  <section id="about" class="about">
+    <h2>Tentang Sistem Operasi</h2>
+    <p class="fade-up">Sistem operasi komputer adalah perangkat lunak inti yang mengatur dan mengelola semua sumber daya perangkat keras dan perangkat lunak komputer, berfungsi sebagai perantara antara pengguna dan perangkat keras. Tanpa sistem operasi, komputer tidak dapat menjalankan program apa pun karena tidak ada perangkat lunak yang mengatur dan mengelola fungsi-fungsi seperti memori, prosesor, penyimpanan, dan perangkat input/output (seperti keyboard dan mouse), sehingga komputer menjadi tidak berguna. Contoh sistem operasi yang populer adalah Microsoft Windows, Linux, Android, macOS, dan iOS. </p>
+    <p class="fade-up">Sistem Operasi Komputer :</p>
+    <div class="skills fade-up">
+      <div class="skill">DOS</div>
+      <div class="skill">Windows</div>
+      <div class="skill">MAC</div>
+      <div class="skill">Linux</div>
+      <div class="skill">Android</div>
+      <div class="skill">Maemo</div>
+      <div class="skill">IOS</div>
+      <div class="skill">Maego</div>
+    </div>
+  </section>
+
+  <!-- Tugas -->
+  <section id="projects" class="projects">
+    <h2>Sejarah Sistem Operasi</h2>
+    <div class="project-list">
+
+      <!-- 1 -->
+      <div class="card fade-up" onclick="toggleDetail('p1')">
+        <h3>1.Sistem Operasi DOS</h3>
+        <p>Sejarah DOS dimulai pada awal 1980-an ketika Microsoft mengembangkan MS-DOS (Microsoft Disk Operating System) melalui lisensi dari Seattle Computer Products (SCP) yang menciptakan Q-DOS. MS-DOS menjadi sistem operasi utama untuk IBM PC dan PC lainnya, yang mengantarkan era komputasi personal dengan antarmuka baris perintah. Popularitasnya menurun setelah diperkenalkannya sistem operasi berbasis GUI seperti Windows pada pertengahan 1990-an. </p>
+        <div class="detail" id="p1">
+          <p>Referensi klik link dibawah</p>
+          <button class="link-btn" onclick="openLink(event, 'https://id.wikipedia.org/wiki/MS-DOS#:~:text=MS%2DDOS%20dirilis%20pertama%20kali,MS%2DDOS%20merupakan%20salah%20satu')">Lihat</button>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="card fade-up" onclick="toggleDetail('p2')">
+        <h3>2.Sistem Operasi Windows</h3>
+        <p>Sejarah Windows dimulai dengan Windows 1.0 yang dirilis pada 20 November 1985 sebagai perpanjangan grafis dari MS-DOS. Versi awal ini dikembangkan untuk meniru kesuksesan antarmuka grafis (GUI) dari sistem operasi lain, terutama Macintosh. Perkembangan signifikan terjadi dengan Windows 3.0 pada tahun 1990 yang sukses di pasar, diikuti oleh seri Windows NT untuk bisnis dan seri Windows 9x yang membawa fitur seperti Menu Start pada Windows 95. Sistem operasi ini terus berevolusi, dari Windows XP hingga Windows 11 yang merupakan versi desktop terbaru saat ini, dengan fokus pada peningkatan performa, keamanan, dan desain antarmuka yang modern. </p>
+        <div class="detail" id="p2">
+          <p>Referensi klik link dibawah</p>
+          <button class="link-btn" onclick="openLink(event, 'https://it.telkomuniversity.ac.id/pengertian-sistem-operasi-windows/#:~:text=Windows%2095%2C%20dirilis%20pada%20tahun%201995%2C%20adalah,serta%20dukungan%20untuk%20plug%20and%20play%20hardware.')">Lihat</button>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="card fade-up" onclick="toggleDetail('p3')">
+        <h3>3.Sistem Operasi MAC</h3>
+        <p>Macintosh Operating System atau disingkat dengan Mac OS pertama kali dikenalkan oleh Apple Corporation kepada publik melalui iklan Super Bowl pada tepatnya pada Januari 1984. Mac OS merupakan satu-satunya sistem operasi yang memiliki antar muka grafis / GUI (Graphical User Interfaces) pada saat itu.
+
+Mac OS dibuat untuk komputer netbook Apple Macintosh. Kemunculan ini menjadi pioneer bagi sistem operasi yang lainnya untuk mengembangkan dan menerapkan antar muka grafis / GUI pada sistem operasi mereka. Tahun 1991, Apple merilis System 7, System yang lebih canggih dibandingkan dengan sebelumnya dan memiliki masa pakai yang cukup lama, dari tahun 1991 hingga 1997.
+
+Pada januari 1997, Mac OS resmi merilis Mac OS versi 7.6 dengan perbedaan dari segi penamaan yang dulunya menggunakan nama “System” dan berganti dengan nama “Mac OS”. Tidak hanya dari segi penamaan, dari segi peforma juga diperbaiki oleh pihak Apple hingga pada Mac OS 7.6 membuat Macintosh Operating System semakin dikenal luas oleh masyarakat.</p>
+        <div class="detail" id="p3">
+          <p>Referensi klik link dibawah</p>
+          <button class="link-btn" onclick="openLink(event, 'https://medium.com/@gieskacahya75189/sejarah-perkembangan-sistem-operasi-mac-os-da066805d46c')">Lihat</button>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="card fade-up" onclick="toggleDetail('p4')">
+        <h3>4.Sistem Operasi Linux</h3>
+        <p>Sistem operasi ini dibangun berdasarkan kernel (inti sistem operasi) Linux yang pertama kali dirilis pada tahun 1991 oleh Linus Torvalds, seorang mahasiswa dari Universitas Helsinki, Finlandia.  Pada awalnya, Linux hanya dikembangkan sebagai hobi dan tidak dimaksudkan untuk digunakan secara luas. Namun, seiring dengan perkembangan internet, komunitas pengembang Linux semakin berkembang dan Linux menjadi semakin populer.  Pada tahun 1993, Slackware menjadi distribusi Linux yang pertama kali dirilis secara komersial. Setelah itu, muncul beberapa distribusi Linux lainnya seperti Debian, Red Hat, SUSE, dan Ubuntu. Linux telah menjadi sistem operasi yang sangat populer di kalangan pengembang perangkat lunak, karena kemampuannya untuk disesuaikan dan dimodifikasi sesuai dengan kebutuhan pengguna. Selain itu, Linux juga populer di kalangan pengguna server dan pengguna akhir, terutama di lingkungan bisnis dan organisasi pemerintah.  Seiring dengan perkembangan teknologi, Linux juga telah berkembang untuk mendukung perangkat mobile seperti smartphone dan tablet. Salah satu distribusi Linux yang populer untuk perangkat mobile adalah Android, yang digunakan pada sebagian besar smartphone di seluruh dunia. </p>
+        <div class="detail" id="p4">
+          <p>Referensi klik link dibawah</p>
+          <button class="link-btn" onclick="openLink(event, 'https://it.telkomuniversity.ac.id/pengertian-os-linux/#:~:text=Sistem%20operasi%20Linux%20adalah%20jenis,dan%20disesuaikan%20sesuai%20kebutuhan%20mereka.')">Lihat</button>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="card fade-up" onclick="toggleDetail('p5')">
+        <h3>5.Sistem Operasi Android</h3>
+        <p>sejarah Android dimulai pada tahun 2003, ketika sebuah perusahaan teknologi Amerika, Android Inc. membuat proyek pengembangan sistem operasi untuk kamera digital. Pada 2004, proyek tersebut beralih tujuan menjadi pengembangan sistem operasi untuk telepon pintar.Android Inc. kemudian dibeli oleh Google pada tahun 2005. Di Google, tim Android memutuskan untuk mendasarkan proyek mereka pada Linux, sistem operasi open source untuk komputer pribadi.
+Pada 5 November 2007, Google mendirikan Open Handset Alliance, perkongsian dari puluhan perusahaan teknologi dan telepon seluler, seperti Motorola Inc., Intel Corporation, NVIDIA Corporation, LC Electronics, Inc., dan Samsung Electronics. Perkongsian tersebut dibuat untuk mengembangkan dan mempromosikan Android sebagai sistem operasi open source gratis.
+Android resmi meluncurkan handphone pertamanya, yakni T-Mobile G1 pada 22 Oktober 2008. Sejak saat itu, eksistensi Android di dunia teknologi semakin meningkat. Bahkan pada tahun 2012, Android melampaui iOS sebagai sistem operasi paling populer untuk perangkat seluler.</p>
+        <div class="detail" id="p5">
+          <p>Referensi klik link dibawah</p>
+          <button class="link-btn" onclick="openLink(event, 'https://kumparan.com/berita-hari-ini/sejarah-android-dan-perkembangannya-dari-dulu-hingga-kini-1zIrdXHZA74/full')">Lihat</button>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="card fade-up" onclick="toggleDetail('p6')">
+        <h3>Tambahan</h3>
+        <p>Jika ingin melihat referensi, pencet satu kali pada bubble kotak, lalu akan ada tombol lihat, maka akan mengarah ke referensi yang saya dapat.</p>
+        <div class="detail" id="p6">
+          <p>Terima Kasih😇</p>
+          <button class="link-btn" onclick="openLink(event, 'https://www.instagram.com/')">Peace</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact" class="contact">
+    <h2>Kontak Saya</h2>
+    <p>Email: <span id="email">subhan28052006@gmail.com</span></p>
+    <button id="copyEmail">Salin Email</button>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Dibuat oleh Subhan </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
